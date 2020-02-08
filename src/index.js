@@ -44,4 +44,4 @@ import Badge from "./components/Badge";
 const container = document.getElementById("app");
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(<Badge/>, container);
+ReactDOM.render(<Badge firstName='Duke' lastName="bb" jobTitle="Engineer" twitter="ajpy" urlAvatar= "https://es.gravatar.com/avatar?d=identicon"/>, container);
